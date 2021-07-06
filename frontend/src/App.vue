@@ -1,6 +1,23 @@
 <template>
   <div v-if="isDrizzleInitialized" id="app">
-    <div>Hello world</div>
+    <section>
+      <h2>Show Accounts</h2>
+      <drizzle-account units="Ether" precision="4"/>
+
+    </section>
+    <section>
+      <h2>Simple Storage</h2>
+      <drizzle-contract
+        contract-name="SimpleStorage"
+        method="storedData"
+        label="Value"/>
+
+      <drizzle-contract-form
+        contract-name="SimpleStorage"
+        method="set"
+        :placeholders="['Value']"/>
+
+    </section>
   </div>
   <div v-else>
     Loading

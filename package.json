@@ -2,6 +2,9 @@
   "name": "drizzle-template",
   "version": "0.1",
   "description": "",
+  "scripts": {
+    "deploy": "truffle compile --reset && truffle migrate --reset"
+  },
   "author": {
     "name": "Jan Michek",
     "email": "jan@janmichek.cz"

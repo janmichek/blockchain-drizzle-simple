@@ -1,6 +1,10 @@
-### Drizzle template
-Predefined project with Truffle & Drizzle
-Good starting point for another projects.
+### Drizzle Simple Components
+Simple usage of Drizzle components using Vue frontend.
+Inspired by this tutorial
+
+https://www.youtube.com/watch?v=XaVEZ1ucxac
+
+This project is based upon premade template
 
 ## Dependencies
 - Ganache https://www.trufflesuite.com/ganache
