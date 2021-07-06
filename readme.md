@@ -4,7 +4,8 @@ Inspired by this tutorial
 
 https://www.youtube.com/watch?v=XaVEZ1ucxac
 
-This project is based upon premade template
+This project is based upon premade template 
+https://github.com/janmichek/drizzle-template
 
 ## Dependencies
 - Ganache https://www.trufflesuite.com/ganache
