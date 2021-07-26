@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "blockchain-drizzle-simple-frontend",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
