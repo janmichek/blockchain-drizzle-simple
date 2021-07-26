@@ -1,11 +1,6 @@
 ### Drizzle Simple Components
-Simple usage of Drizzle components using Vue frontend.
-Inspired by this tutorial
-
-https://www.youtube.com/watch?v=XaVEZ1ucxac
-
-This project is based upon premade template 
-https://github.com/janmichek/drizzle-template
+Simple usage of Drizzle components in Vue frontend.
+Inspired by this tutorial: https://www.youtube.com/watch?v=XaVEZ1ucxac
 
 ## Dependencies
 - Ganache https://www.trufflesuite.com/ganache
@@ -19,7 +14,7 @@ Run Ganache quickstart Workspace
 ```yarn install```
 
 ### Compile contracts
-```truffle compile --reset```
+```truffle compile```
 
 ### Deploy contracts to blockchain
 ```truffle migrate --reset```
