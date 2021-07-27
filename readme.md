@@ -1,11 +1,14 @@
 ### Drizzle Simple Components
 Simple usage of Drizzle components in Vue frontend.
-Inspired by this tutorial: https://www.youtube.com/watch?v=XaVEZ1ucxac
+
+This repository is inspired by tutorial:
+https://www.youtube.com/watch?v=XaVEZ1ucxac
 
 ## Dependencies
 - Ganache https://www.trufflesuite.com/ganache
+- Node JS
+- Yarn
 
-Run Ganache quickstart Workspace
 
 ## Init project
 ### Install dependencies
@@ -13,13 +16,33 @@ Run Ganache quickstart Workspace
 
 ```yarn install```
 
-### Compile contracts
-```truffle compile```
-
 ### Deploy contracts to blockchain
-```truffle migrate --reset```
+```yarn deploy```
+
 
 ## Run project
+
+Run Ganache with Quickstart Workspace
+
 ```cd frontend```
 
 ```yarn serve```
+
+### Init Metamask account
+
+Login to Metamask
+
+Go to Ganache and copy private key of first account
+
+Open Metamask
+
+Switch to Ganache Network
+
+Click Import account
+
+Paste private key
+
+Connect Account
+
+Open app on http://localhost:8080/
+
