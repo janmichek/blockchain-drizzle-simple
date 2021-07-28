@@ -1,9 +1,9 @@
 <template>
   <div v-if="isDrizzleInitialized" id="app">
-    <section>
-      <h2>Account</h2>
+    <header>
+      Account
       <drizzle-account units="Ether" precision="4"/>
-    </section>
+    </header>
 
     <section>
       <h2>Simple Storage</h2>

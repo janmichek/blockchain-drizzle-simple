@@ -1,12 +1,12 @@
 {
   "name": "blockchain-drizzle-simple",
   "version": "0.1",
-  "scripts": {
-    "serve": "cd frontend && vue-cli-service serve",
-    "deploy": "truffle compile --reset && truffle migrate --reset"
-  },
   "author": {
     "name": "Jan Michek",
     "email": "jan@janmichek.cz"
+  },
+  "scripts": {
+    "serve": "cd frontend && vue-cli-service serve",
+    "deploy": "truffle compile && truffle migrate --reset"
   }
 }
