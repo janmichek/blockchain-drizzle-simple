@@ -1,7 +1,10 @@
 <template>
-  <div v-if="isDrizzleInitialized" id="app">
+  <div
+    v-if="isDrizzleInitialized"
+    id="app">
     <header>
-      Account
+      <h1>Simple Drizzle DAPP</h1>
+      Account:
       <drizzle-account units="Ether" precision="4"/>
     </header>
 

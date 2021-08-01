@@ -694,7 +694,7 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
-"@drizzle/store@^1.5.0", "@drizzle/store@^1.5.3":
+"@drizzle/store@^1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@drizzle/store/-/store-1.5.3.tgz#97a95627fc2e4751f20c84c2d06d8623c1e34343"
   integrity sha512-/ESDSGz90sTOPNup87LCqvX9JGI7XfHgZpByPMean7rxVmIYr1P6/AoZQ8COKQjr3C9L0E7ZgXFtQeDMAS2TbA==
@@ -8156,6 +8156,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+simpledotcss@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/simpledotcss/-/simpledotcss-1.0.1.tgz#d63664317f5c8fde2bc5de77ee3a0186f68f99ac"
+  integrity sha512-v95vCd+L11sXADuOv1j5LlF1MAE6zkh3HNnBTpDabpgybYCiz4/6X4aqgDBd0jylud7APst5KxW//O8htWUakA==
 
 slash@^1.0.0:
   version "1.0.0"
