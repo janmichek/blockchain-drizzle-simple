@@ -1,7 +1,7 @@
 ### Drizzle Simple Components
 Simple usage of Drizzle components in Vue frontend.
 
-This repository is inspired by tutorial:
+This repository is inspired by following tutorial:
 https://www.youtube.com/watch?v=XaVEZ1ucxac
 
 ## Dependencies
@@ -13,6 +13,8 @@ https://www.youtube.com/watch?v=XaVEZ1ucxac
 ## Init project
 ### Deploy contracts to blockchain
 
+Run Ganache with Quickstart Workspace
+
 ```yarn deploy```
 
 ### Install dependencies
@@ -22,8 +24,6 @@ https://www.youtube.com/watch?v=XaVEZ1ucxac
 
 
 ## Run project
-
-Run Ganache with Quickstart Workspace
 
 ```yarn serve```
 
